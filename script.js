@@ -25,7 +25,7 @@ function changeRedragonKumaraK552ToImg3(){
 document.querySelector("buyRedragonM711Cobra").addEventListener("click", function(){
     var money = document.querySelector("money")
     var priceForRedragonM711Cobra = document.querySelector("priceforRedragonM711Cobra")
-    if(money.innerHTML > priceForRedragonM711Cobra){
+    if(money.innerHTML > priceForRedragonM711Cobra.innerHTML){
         money.innerHTML -= priceForRedragonM711Cobra
     }
 })
